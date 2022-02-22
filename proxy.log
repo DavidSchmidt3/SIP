@@ -1,0 +1,1340 @@
+18:44:03:INFO:Sun, 20 Feb 2022 18:44:03 
+18:44:03:INFO:MacBook-Pro-uzivatela-David.local
+18:44:03:INFO:192.168.0.104
+18:44:06:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+18:44:06:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:38848
+18:44:06:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+18:44:07:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+18:44:07:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:62987
+18:44:07:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+18:44:09:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+18:44:09:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+18:44:15:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:44:15:INFO:<<< SIP/2.0 400 Zly request
+18:44:15:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:44:15:INFO:destination DavidPhone2@192.168.0.104
+18:44:15:INFO:<<< ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:44:15:INFO:>>> SIP/2.0 405 Method not allowed
+18:44:33:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+18:44:33:INFO:destination DavidPhone@192.168.0.104
+18:44:33:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+18:44:33:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+18:44:33:INFO:destination DavidPhone@192.168.0.104
+18:53:53:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+18:53:53:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:51276
+18:53:53:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+18:53:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+18:53:54:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:53330
+18:53:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+18:53:56:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+18:53:56:INFO:destination David@192.168.0.104
+18:53:56:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+18:53:56:INFO:>>> SIP/2.0 100 Trying
+18:53:56:INFO:<<< SIP/2.0 100 Trying
+18:53:56:INFO:>>> SIP/2.0 180 Ringing
+18:53:56:INFO:<<< SIP/2.0 180 Ringing
+18:54:00:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+18:54:00:INFO:destination David@192.168.0.104
+18:54:00:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+18:54:00:INFO:>>> SIP/2.0 200 Ok
+18:54:00:INFO:<<< SIP/2.0 200 Ok
+18:54:00:INFO:>>> SIP/2.0 487 Request terminated
+18:54:00:INFO:<<< SIP/2.0 487 Request terminated
+18:54:00:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+18:54:00:INFO:destination David@192.168.0.104
+18:54:00:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+18:54:06:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+18:54:06:INFO:destination David@192.168.0.104
+18:54:06:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+18:54:06:INFO:>>> SIP/2.0 100 Trying
+18:54:06:INFO:<<< SIP/2.0 100 Trying
+18:54:06:INFO:>>> SIP/2.0 180 Ringing
+18:54:06:INFO:<<< SIP/2.0 180 Ringing
+18:54:09:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+18:54:09:INFO:destination David@192.168.0.104
+18:54:09:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+18:54:09:INFO:>>> SIP/2.0 200 Ok
+18:54:09:INFO:<<< SIP/2.0 200 Ok
+18:54:09:INFO:>>> SIP/2.0 487 Request terminated
+18:54:09:INFO:<<< SIP/2.0 487 Request terminated
+18:54:09:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+18:54:09:INFO:destination David@192.168.0.104
+18:54:09:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+18:54:13:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:54:13:INFO:destination DavidPhone2@192.168.0.104
+18:54:13:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:54:13:INFO:>>> SIP/2.0 100 Trying
+18:54:13:INFO:<<< SIP/2.0 100 Trying
+18:54:13:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:54:13:INFO:destination DavidPhone2@192.168.0.104
+18:54:13:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+18:54:14:INFO:>>> SIP/2.0 180 Ringing
+18:54:14:INFO:<<< SIP/2.0 180 Ringing
+18:54:14:INFO:>>> SIP/2.0 180 Ringing
+18:54:14:INFO:<<< SIP/2.0 180 Ringing
+18:54:28:INFO:>>> SIP/2.0 200 Ok
+18:54:28:INFO:<<< SIP/2.0 200 Ok
+18:54:28:INFO:>>> ACK sip:DavidPhone2@192.168.0.100:38848;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+18:54:28:INFO:destination DavidPhone2@192.168.0.104
+18:54:28:INFO:<<< ACK sip:DavidPhone2@192.168.0.100:38848;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+18:54:39:INFO:>>> INVITE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:54:39:INFO:destination DavidPhone@192.168.0.104
+18:54:39:INFO:<<< INVITE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:54:39:INFO:>>> SIP/2.0 100 Trying
+18:54:39:INFO:<<< SIP/2.0 100 Trying
+18:54:40:INFO:>>> INVITE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:54:40:INFO:destination DavidPhone@192.168.0.104
+18:54:40:INFO:<<< INVITE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:54:40:INFO:>>> SIP/2.0 100 Trying
+18:54:40:INFO:<<< SIP/2.0 100 Trying
+18:54:44:INFO:>>> SIP/2.0 200 Ok
+18:54:44:INFO:<<< SIP/2.0 200 Ok
+18:54:44:INFO:>>> ACK sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:54:44:INFO:destination DavidPhone@192.168.0.104
+18:54:44:INFO:<<< ACK sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:55:14:INFO:>>> BYE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:55:14:INFO:destination DavidPhone@192.168.0.104
+18:55:14:INFO:<<< BYE sip:DavidPhone@192.168.0.103:51276;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+18:55:14:INFO:>>> SIP/2.0 200 Ok
+18:55:14:INFO:<<< SIP/2.0 200 Ok
+19:00:44:INFO:Sun, 20 Feb 2022 19:00:44 
+19:00:44:INFO:MacBook-Pro-uzivatela-David.local
+19:00:44:INFO:192.168.0.104
+19:00:57:INFO:Sun, 20 Feb 2022 19:00:57 
+19:00:57:INFO:MacBook-Pro-uzivatela-David.local
+19:00:57:INFO:192.168.0.104
+19:01:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:01:54:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:59074
+19:01:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:02:39:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:02:39:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:51884
+19:02:39:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:02:40:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:02:40:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:02:40:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:02:40:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:02:40:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:02:40:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:02:41:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:41:INFO:destination DavidPhone2@192.168.0.104
+19:02:41:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:02:41:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:41:INFO:destination DavidPhone2@192.168.0.104
+19:02:42:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:02:42:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:02:43:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:43:INFO:destination DavidPhone2@192.168.0.104
+19:02:43:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:02:44:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:44:INFO:destination DavidPhone2@192.168.0.104
+19:02:45:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:45:INFO:destination DavidPhone2@192.168.0.104
+19:02:45:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:02:45:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:45:INFO:destination DavidPhone2@192.168.0.104
+19:02:47:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:47:INFO:destination DavidPhone2@192.168.0.104
+19:02:47:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:02:47:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:47:INFO:destination DavidPhone2@192.168.0.104
+19:02:49:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:02:49:INFO:destination David@192.168.0.104
+19:02:49:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:02:49:INFO:>>> SIP/2.0 100 Trying
+19:02:49:INFO:<<< SIP/2.0 100 Trying
+19:02:49:INFO:>>> SIP/2.0 180 Ringing
+19:02:49:INFO:<<< SIP/2.0 180 Ringing
+19:02:50:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:02:50:INFO:destination David@192.168.0.104
+19:02:50:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:02:50:INFO:>>> SIP/2.0 200 Ok
+19:02:50:INFO:<<< SIP/2.0 200 Ok
+19:02:50:INFO:>>> SIP/2.0 487 Request terminated
+19:02:50:INFO:<<< SIP/2.0 487 Request terminated
+19:02:50:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:02:50:INFO:destination David@192.168.0.104
+19:02:50:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:02:51:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:02:51:INFO:destination David@192.168.0.104
+19:02:51:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:02:51:INFO:>>> SIP/2.0 100 Trying
+19:02:51:INFO:<<< SIP/2.0 100 Trying
+19:02:51:INFO:>>> SIP/2.0 180 Ringing
+19:02:51:INFO:<<< SIP/2.0 180 Ringing
+19:02:54:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:02:54:INFO:destination David@192.168.0.104
+19:02:54:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:02:54:INFO:>>> SIP/2.0 200 Ok
+19:02:54:INFO:<<< SIP/2.0 200 Ok
+19:02:54:INFO:>>> SIP/2.0 487 Request terminated
+19:02:54:INFO:<<< SIP/2.0 487 Request terminated
+19:02:54:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:02:54:INFO:destination David@192.168.0.104
+19:02:54:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:02:55:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:55:INFO:destination DavidPhone2@192.168.0.104
+19:02:55:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:02:55:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:02:55:INFO:destination DavidPhone2@192.168.0.104
+19:03:00:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:00:INFO:destination David@192.168.0.104
+19:03:00:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:00:INFO:>>> SIP/2.0 100 Trying
+19:03:00:INFO:<<< SIP/2.0 100 Trying
+19:03:00:INFO:>>> SIP/2.0 180 Ringing
+19:03:00:INFO:<<< SIP/2.0 180 Ringing
+19:03:02:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:03:02:INFO:destination David@192.168.0.104
+19:03:02:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:03:02:INFO:>>> SIP/2.0 200 Ok
+19:03:02:INFO:<<< SIP/2.0 200 Ok
+19:03:02:INFO:>>> SIP/2.0 487 Request terminated
+19:03:02:INFO:<<< SIP/2.0 487 Request terminated
+19:03:02:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:03:02:INFO:destination David@192.168.0.104
+19:03:02:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:03:03:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:03:INFO:destination DavidPhone2@192.168.0.104
+19:03:03:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:03:04:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:04:INFO:destination DavidPhone2@192.168.0.104
+19:03:05:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:05:INFO:destination DavidPhone2@192.168.0.104
+19:03:05:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:03:05:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:05:INFO:destination DavidPhone2@192.168.0.104
+19:03:07:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:07:INFO:destination David@192.168.0.104
+19:03:07:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:07:INFO:>>> SIP/2.0 100 Trying
+19:03:07:INFO:<<< SIP/2.0 100 Trying
+19:03:07:INFO:>>> SIP/2.0 180 Ringing
+19:03:07:INFO:<<< SIP/2.0 180 Ringing
+19:03:09:INFO:>>> SIP/2.0 200 Ok
+19:03:09:INFO:<<< SIP/2.0 200 Ok
+19:03:09:INFO:>>> ACK sip:David@192.168.0.104:59074;transport=udp SIP/2.0
+19:03:09:INFO:destination David@192.168.0.104
+19:03:09:INFO:<<< ACK sip:David@192.168.0.104:59074;transport=udp SIP/2.0
+19:03:11:INFO:>>> BYE sip:DavidPhone@192.168.0.103:51884;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+19:03:11:INFO:destination DavidPhone@192.168.0.104
+19:03:11:INFO:<<< BYE sip:DavidPhone@192.168.0.103:51884;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+19:03:11:INFO:>>> SIP/2.0 200 Ok
+19:03:11:INFO:<<< SIP/2.0 200 Ok
+19:03:12:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:12:INFO:destination DavidPhone2@192.168.0.104
+19:03:12:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:03:12:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:03:12:INFO:destination DavidPhone2@192.168.0.104
+19:03:21:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:21:INFO:<<< SIP/2.0 400 Zly request
+19:03:21:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:03:21:INFO:destination David@192.168.0.104
+19:03:21:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:03:21:INFO:>>> SIP/2.0 405 Method not allowed
+19:03:28:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:28:INFO:<<< SIP/2.0 400 Zly request
+19:03:28:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:03:28:INFO:destination David@192.168.0.104
+19:03:28:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:03:28:INFO:>>> SIP/2.0 405 Method not allowed
+19:03:33:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:33:INFO:destination David@192.168.0.104
+19:03:33:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:03:33:INFO:>>> SIP/2.0 100 Trying
+19:03:33:INFO:<<< SIP/2.0 100 Trying
+19:03:34:INFO:>>> SIP/2.0 180 Ringing
+19:03:34:INFO:<<< SIP/2.0 180 Ringing
+19:03:35:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:03:35:INFO:destination David@192.168.0.104
+19:03:35:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:03:35:INFO:>>> SIP/2.0 200 Ok
+19:03:35:INFO:<<< SIP/2.0 200 Ok
+19:03:35:INFO:>>> SIP/2.0 487 Request terminated
+19:03:35:INFO:<<< SIP/2.0 487 Request terminated
+19:03:35:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:03:35:INFO:destination David@192.168.0.104
+19:03:35:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:03:41:INFO:>>> SUBSCRIBE sip:DavidPhone2@192.168.0.100:38848;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+19:03:41:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:03:41:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:03:41:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:03:42:INFO:>>> SUBSCRIBE sip:DavidPhone2@192.168.0.100:38848;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+19:03:42:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:03:44:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:03:44:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:37809
+19:03:44:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:03:44:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:03:44:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:05:00:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:05:00:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:05:01:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:05:01:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:37809
+19:05:01:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:05:01:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:05:01:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:05:02:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:05:02:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:37809
+19:05:02:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:05:53:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:05:53:INFO:destination David@192.168.0.104
+19:05:53:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:05:53:INFO:>>> SIP/2.0 100 Trying
+19:05:53:INFO:<<< SIP/2.0 100 Trying
+19:05:53:INFO:>>> SIP/2.0 180 Ringing
+19:05:53:INFO:<<< SIP/2.0 180 Ringing
+19:05:57:INFO:>>> SIP/2.0 603 Decline
+19:05:57:INFO:<<< SIP/2.0 603 Decline
+19:05:57:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:05:57:INFO:destination David@192.168.0.104
+19:05:57:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:06:00:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:06:00:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:06:30:INFO:>>> SUBSCRIBE sip:DavidPhone2@192.168.0.100:37809;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+19:06:30:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:07:10:INFO:>>> SUBSCRIBE sip:rls@sip.linphone.org SIP/2.0
+19:07:10:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:07:11:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:11:INFO:<<< SIP/2.0 400 Zly request
+19:07:11:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:11:INFO:destination DavidPhone2@192.168.0.104
+19:07:11:INFO:<<< ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:11:INFO:>>> SIP/2.0 405 Method not allowed
+19:07:14:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:07:14:INFO:destination DavidPhone@192.168.0.104
+19:07:14:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:07:14:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:07:14:INFO:destination DavidPhone@192.168.0.104
+19:07:20:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:20:INFO:<<< SIP/2.0 400 Zly request
+19:07:20:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:20:INFO:destination DavidPhone2@192.168.0.104
+19:07:20:INFO:<<< ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:20:INFO:>>> SIP/2.0 405 Method not allowed
+19:07:22:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:07:22:INFO:destination David@192.168.0.104
+19:07:22:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:07:22:INFO:>>> SIP/2.0 100 Trying
+19:07:22:INFO:<<< SIP/2.0 100 Trying
+19:07:23:INFO:>>> SIP/2.0 180 Ringing
+19:07:23:INFO:<<< SIP/2.0 180 Ringing
+19:07:24:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:07:24:INFO:destination David@192.168.0.104
+19:07:24:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:07:24:INFO:>>> SIP/2.0 200 Ok
+19:07:24:INFO:<<< SIP/2.0 200 Ok
+19:07:24:INFO:>>> SIP/2.0 487 Request terminated
+19:07:24:INFO:<<< SIP/2.0 487 Request terminated
+19:07:24:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:07:24:INFO:destination David@192.168.0.104
+19:07:24:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:07:32:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:32:INFO:<<< SIP/2.0 400 Zly request
+19:07:32:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:32:INFO:destination DavidPhone2@192.168.0.104
+19:07:32:INFO:<<< ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:07:33:INFO:>>> SIP/2.0 405 Method not allowed
+19:08:12:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:08:12:INFO:destination David@192.168.0.104
+19:08:12:INFO:<<< INVITE sip:David@192.168.0.104 SIP/2.0
+19:08:12:INFO:>>> SIP/2.0 100 Trying
+19:08:12:INFO:<<< SIP/2.0 100 Trying
+19:08:12:INFO:>>> SIP/2.0 180 Ringing
+19:08:12:INFO:<<< SIP/2.0 180 Ringing
+19:08:13:INFO:>>> CANCEL sip:David@192.168.0.104 SIP/2.0
+19:08:13:INFO:destination David@192.168.0.104
+19:08:13:INFO:<<< CANCEL sip:David@192.168.0.104 SIP/2.0
+19:08:13:INFO:>>> SIP/2.0 200 Ok
+19:08:13:INFO:<<< SIP/2.0 200 Ok
+19:08:13:INFO:>>> SIP/2.0 487 Request terminated
+19:08:13:INFO:<<< SIP/2.0 487 Request terminated
+19:08:13:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:08:13:INFO:destination David@192.168.0.104
+19:08:13:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:08:15:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:15:INFO:destination DavidPhone@192.168.0.104
+19:08:15:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:08:15:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:15:INFO:destination DavidPhone@192.168.0.104
+19:08:17:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:17:INFO:destination DavidPhone@192.168.0.104
+19:08:17:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:08:17:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:17:INFO:destination DavidPhone@192.168.0.104
+19:08:18:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:18:INFO:destination DavidPhone@192.168.0.104
+19:08:18:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:08:18:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:18:INFO:destination DavidPhone@192.168.0.104
+19:08:20:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:20:INFO:destination DavidPhone@192.168.0.104
+19:08:20:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:08:20:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:20:INFO:destination DavidPhone@192.168.0.104
+19:08:22:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:08:22:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:08:23:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:23:INFO:<<< SIP/2.0 400 Zly request
+19:08:23:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:08:23:INFO:destination DavidPhone@192.168.0.104
+19:08:25:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:08:25:INFO:<<< SIP/2.0 400 Zly request
+19:08:25:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:08:25:INFO:destination DavidPhone2@192.168.0.104
+19:08:27:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:08:27:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:52791
+19:08:27:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:08:28:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:08:28:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:08:29:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:08:29:INFO:<<< SIP/2.0 400 Zly request
+19:08:29:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:08:29:INFO:destination DavidPhone2@192.168.0.104
+19:08:33:INFO:>>> SUBSCRIBE sip:DavidPhone2@192.168.0.100:37809;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+19:08:33:INFO:<<< SIP/2.0 200 VYBAVENE OK
+19:43:41:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:43:41:INFO:destination DavidPhone@192.168.0.104
+19:43:41:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:43:41:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:43:41:INFO:destination DavidPhone@192.168.0.104
+19:43:46:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:43:46:INFO:destination DavidPhone2@192.168.0.104
+19:43:46:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:43:46:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:43:46:INFO:destination DavidPhone2@192.168.0.104
+19:43:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:43:54:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:63596
+19:43:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:43:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:43:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:00:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:44:00:INFO:<<< SIP/2.0 400 Zly request
+19:44:00:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:44:00:INFO:destination David@192.168.0.104
+19:44:00:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:44:00:INFO:>>> SIP/2.0 405 Method not allowed
+19:44:12:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:12:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:18:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:18:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:59074
+19:44:18:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:21:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:21:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:27:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:27:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:63596
+19:44:27:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:28:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:28:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:28:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:28:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:63596
+19:44:28:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:30:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:30:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:37809
+19:44:30:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:30:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:30:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:30:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:44:30:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:37809
+19:44:30:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:44:41:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:44:41:INFO:destination David@192.168.0.104
+19:44:41:INFO:<<< SIP/2.0 480 Dočasne nedostupne
+19:44:41:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:44:41:INFO:destination David@192.168.0.104
+19:44:58:INFO:Sun, 20 Feb 2022 19:44:58 
+19:44:58:INFO:MacBook-Pro-uzivatela-David.local
+19:44:58:INFO:192.168.0.104
+19:45:01:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:45:01:INFO:<<< SIP/2.0 400 Zly request
+19:45:01:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:45:01:INFO:destination David@192.168.0.104
+19:45:03:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:45:03:INFO:<<< SIP/2.0 400 Zly request
+19:45:03:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:45:03:INFO:destination David@192.168.0.104
+19:45:05:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:05:INFO:<<< SIP/2.0 400 Zly request
+19:45:05:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:05:INFO:destination DavidPhone2@192.168.0.104
+19:45:06:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:06:INFO:<<< SIP/2.0 400 Zly request
+19:45:06:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:06:INFO:destination DavidPhone2@192.168.0.104
+19:45:09:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:09:INFO:<<< SIP/2.0 400 Zly request
+19:45:09:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:45:09:INFO:destination DavidPhone2@192.168.0.104
+19:45:14:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:45:14:INFO:<<< SIP/2.0 400 Zly request
+19:45:14:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:45:14:INFO:destination DavidPhone@192.168.0.104
+19:46:39:INFO:Sun, 20 Feb 2022 19:46:39 
+19:46:39:INFO:MacBook-Pro-uzivatela-David.local
+19:46:39:INFO:192.168.0.104
+19:46:42:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:46:42:INFO:<<< SIP/2.0 400 Zly request
+19:46:43:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:46:43:INFO:destination David@192.168.0.104
+19:46:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:46:54:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:56149
+19:46:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:47:04:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:47:04:INFO:<<< SIP/2.0 400 Zly request
+19:47:04:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:47:04:INFO:destination DavidPhone2@192.168.0.104
+19:47:13:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:47:13:INFO:<<< SIP/2.0 400 Zly request
+19:47:13:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:47:13:INFO:destination DavidPhone2@192.168.0.104
+19:47:15:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:47:15:INFO:<<< SIP/2.0 400 Zly request
+19:47:15:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:47:15:INFO:destination David@192.168.0.104
+19:47:15:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:47:15:INFO:>>> SIP/2.0 405 Method not allowed
+19:47:24:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:24:INFO:<<< SIP/2.0 400 Zly request
+19:47:24:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:24:INFO:destination DavidPhone@192.168.0.104
+19:47:24:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:24:INFO:<<< SIP/2.0 400 Zly request
+19:47:24:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:24:INFO:destination DavidPhone@192.168.0.104
+19:47:28:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:28:INFO:<<< SIP/2.0 400 Zly request
+19:47:28:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:28:INFO:destination DavidPhone@192.168.0.104
+19:47:30:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:30:INFO:<<< SIP/2.0 400 Zly request
+19:47:30:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:47:30:INFO:destination DavidPhone@192.168.0.104
+19:49:18:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:49:18:INFO:<<< SIP/2.0 400 Zly request
+19:49:18:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:49:18:INFO:destination David@192.168.0.104
+19:49:18:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:49:18:INFO:>>> SIP/2.0 405 Method not allowed
+19:49:22:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:49:22:INFO:<<< SIP/2.0 400 Zly request
+19:49:22:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:49:22:INFO:destination DavidPhone2@192.168.0.104
+19:49:25:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:49:25:INFO:<<< SIP/2.0 400 Zly request
+19:49:25:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+19:49:25:INFO:destination DavidPhone2@192.168.0.104
+19:49:27:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:49:27:INFO:<<< SIP/2.0 400 Zly request
+19:49:27:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:49:27:INFO:destination David@192.168.0.104
+19:49:27:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:49:27:INFO:>>> SIP/2.0 405 Method not allowed
+19:49:33:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:33:INFO:<<< SIP/2.0 400 Zly request
+19:49:34:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:34:INFO:destination DavidPhone@192.168.0.104
+19:49:36:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:36:INFO:<<< SIP/2.0 400 Zly request
+19:49:36:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:36:INFO:destination DavidPhone@192.168.0.104
+19:49:37:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:37:INFO:<<< SIP/2.0 400 Zly request
+19:49:37:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:37:INFO:destination DavidPhone@192.168.0.104
+19:49:38:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:49:38:INFO:<<< SIP/2.0 400 Zly request
+19:49:38:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:49:38:INFO:destination David@192.168.0.104
+19:49:38:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:49:38:INFO:>>> SIP/2.0 405 Method not allowed
+19:49:40:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:49:40:INFO:<<< SIP/2.0 400 Zly request
+19:49:40:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:49:40:INFO:destination David@192.168.0.104
+19:49:40:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:49:40:INFO:>>> SIP/2.0 405 Method not allowed
+19:49:42:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:42:INFO:<<< SIP/2.0 400 Zly request
+19:49:42:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:42:INFO:destination DavidPhone@192.168.0.104
+19:49:48:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:49:48:INFO:<<< SIP/2.0 400 Zly request
+19:49:48:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:49:48:INFO:destination David@192.168.0.104
+19:49:48:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:49:48:INFO:>>> SIP/2.0 405 Method not allowed
+19:49:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:49:54:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:48176
+19:49:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:49:54:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:49:54:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:49:58:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:58:INFO:<<< SIP/2.0 400 Zly request
+19:49:59:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:49:59:INFO:destination DavidPhone@192.168.0.104
+19:50:00:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+19:50:00:INFO:<<< SIP/2.0 400 Zly request
+19:50:00:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+19:50:00:INFO:destination DavidPhone@192.168.0.104
+19:50:02:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+19:50:02:INFO:<<< SIP/2.0 400 Zly request
+19:50:02:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+19:50:02:INFO:destination David@192.168.0.104
+19:50:02:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+19:50:02:INFO:>>> SIP/2.0 405 Method not allowed
+19:59:47:INFO:Sun, 20 Feb 2022 19:59:47 
+19:59:47:INFO:MacBook-Pro-uzivatela-David.local
+19:59:47:INFO:192.168.0.104
+19:59:50:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:59:50:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:56149
+19:59:50:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+19:59:53:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+19:59:53:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:05:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:05:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:49926
+20:00:05:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:05:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:05:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:07:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:07:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:49926
+20:00:07:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:08:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:08:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:08:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:08:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:49926
+20:00:08:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:00:12:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:00:12:INFO:<<< SIP/2.0 400 Zly request
+20:00:12:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:00:12:INFO:destination DavidPhone@192.168.0.104
+20:00:12:INFO:<<< ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:00:12:INFO:>>> SIP/2.0 405 Method not allowed
+20:00:49:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:00:49:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:01:56:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:01:56:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:57814
+20:01:56:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:02:00:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:00:INFO:<<< SIP/2.0 400 Zly request
+20:02:00:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:00:INFO:destination DavidPhone2@192.168.0.104
+20:02:23:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:23:INFO:<<< SIP/2.0 400 Zly request
+20:02:23:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:23:INFO:destination DavidPhone2@192.168.0.104
+20:02:42:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:42:INFO:<<< SIP/2.0 400 Zly request
+20:02:42:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:42:INFO:destination DavidPhone2@192.168.0.104
+20:02:43:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:43:INFO:<<< SIP/2.0 400 Zly request
+20:02:43:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:43:INFO:destination DavidPhone2@192.168.0.104
+20:02:47:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:02:47:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:02:48:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:02:48:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:57814
+20:02:48:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:02:50:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:50:INFO:<<< SIP/2.0 400 Zly request
+20:02:50:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:02:50:INFO:destination DavidPhone2@192.168.0.104
+20:03:06:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:03:06:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:03:24:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+20:03:24:INFO:<<< SIP/2.0 400 Zly request
+20:03:24:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+20:03:24:INFO:destination David@192.168.0.104
+20:03:26:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+20:03:26:INFO:<<< SIP/2.0 400 Zly request
+20:03:26:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+20:03:26:INFO:destination David@192.168.0.104
+20:03:35:INFO:Sun, 20 Feb 2022 20:03:35 
+20:03:35:INFO:MacBook-Pro-uzivatela-David.local
+20:03:35:INFO:192.168.0.104
+20:03:37:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:03:37:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:59094
+20:03:37:INFO:<<< SIP/2.0 200 VYBAVENE 0K
+20:03:39:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:03:39:INFO:<<< SIP/2.0 400 Zly request
+20:03:39:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:03:39:INFO:destination DavidPhone2@192.168.0.104
+20:05:36:INFO:Sun, 20 Feb 2022 20:05:36 
+20:05:36:INFO:MacBook-Pro-uzivatela-David.local
+20:05:36:INFO:192.168.0.104
+20:05:37:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+20:05:37:INFO:<<< SIP/2.0 400 Bad Request
+20:05:37:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+20:05:37:INFO:destination David@192.168.0.104
+20:05:43:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:05:43:INFO:<<< SIP/2.0 400 Bad Request
+20:05:43:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:05:43:INFO:destination DavidPhone2@192.168.0.104
+20:05:47:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:05:47:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:48176
+20:05:47:INFO:<<< SIP/2.0 200 0K
+20:05:53:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:05:53:INFO:<<< SIP/2.0 200 0K
+20:05:56:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:05:56:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:63532
+20:05:56:INFO:<<< SIP/2.0 200 0K
+20:06:00:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:06:00:INFO:destination DavidPhone2@192.168.0.104
+20:06:00:INFO:<<< SIP/2.0 480 Dočasne nedostupne fess
+20:06:00:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:06:00:INFO:destination DavidPhone2@192.168.0.104
+20:06:06:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:06:06:INFO:destination DavidPhone2@192.168.0.104
+20:06:06:INFO:<<< SIP/2.0 480 Dočasne nedostupne fess
+20:06:06:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:06:06:INFO:destination DavidPhone2@192.168.0.104
+20:06:14:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:06:14:INFO:destination DavidPhone@192.168.0.104
+20:06:14:INFO:<<< SIP/2.0 480 Dočasne nedostupne fess
+20:06:14:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:06:14:INFO:destination DavidPhone@192.168.0.104
+20:06:19:INFO:>>> INVITE sip:David@192.168.0.104 SIP/2.0
+20:06:19:INFO:<<< SIP/2.0 400 Bad Request
+20:06:19:INFO:>>> ACK sip:David@192.168.0.104 SIP/2.0
+20:06:19:INFO:destination David@192.168.0.104
+20:06:19:INFO:<<< ACK sip:David@192.168.0.104 SIP/2.0
+20:06:19:INFO:>>> SIP/2.0 405 Method not allowed
+20:17:01:INFO:Sun, 20 Feb 2022 20:17:01 
+20:17:01:INFO:MacBook-Pro-uzivatela-David.local
+20:17:01:INFO:192.168.0.104
+20:17:02:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:17:02:INFO:From: David@192.168.0.104 - Contact: 192.168.0.104:57556
+20:17:02:INFO:<<< SIP/2.0 200 0K
+20:17:03:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:17:03:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:54353
+20:17:03:INFO:<<< SIP/2.0 200 0K
+20:17:03:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:17:03:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:54353
+20:17:03:INFO:<<< SIP/2.0 200 0K
+20:17:03:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:17:03:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:54353
+20:17:03:INFO:<<< SIP/2.0 200 0K
+20:17:50:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:17:50:INFO:destination DavidPhone@192.168.0.104
+20:17:50:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:17:50:INFO:>>> SIP/2.0 100 Trying
+20:17:50:INFO:<<< SIP/2.0 100 Trying
+20:17:50:INFO:>>> SIP/2.0 180 Ringing
+20:17:50:INFO:<<< SIP/2.0 180 Ringing
+20:17:59:INFO:>>> SIP/2.0 603 Decline
+20:17:59:INFO:<<< SIP/2.0 603 Decline
+20:17:59:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:17:59:INFO:destination DavidPhone@192.168.0.104
+20:17:59:INFO:<<< ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:04:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:04:INFO:destination DavidPhone@192.168.0.104
+20:18:04:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:04:INFO:>>> SIP/2.0 100 Trying
+20:18:04:INFO:<<< SIP/2.0 100 Trying
+20:18:04:INFO:>>> SIP/2.0 180 Ringing
+20:18:04:INFO:<<< SIP/2.0 180 Ringing
+20:18:07:INFO:>>> SIP/2.0 200 Ok
+20:18:07:INFO:<<< SIP/2.0 200 Ok
+20:18:08:INFO:>>> ACK sip:DavidPhone@192.168.0.103:54353;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:18:08:INFO:destination DavidPhone@192.168.0.104
+20:18:08:INFO:<<< ACK sip:DavidPhone@192.168.0.103:54353;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:18:10:INFO:>>> BYE sip:David@192.168.0.104:57556;transport=udp SIP/2.0
+20:18:10:INFO:destination David@192.168.0.104
+20:18:10:INFO:<<< BYE sip:David@192.168.0.104:57556;transport=udp SIP/2.0
+20:18:11:INFO:>>> SIP/2.0 200 Ok
+20:18:11:INFO:<<< SIP/2.0 200 Ok
+20:18:27:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:18:27:INFO:From: DavidPhone2@192.168.0.104 - Contact: 192.168.0.100:48176
+20:18:27:INFO:<<< SIP/2.0 200 0K
+20:18:29:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:29:INFO:destination DavidPhone@192.168.0.104
+20:18:29:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:29:INFO:>>> SIP/2.0 100 Trying
+20:18:29:INFO:<<< SIP/2.0 100 Trying
+20:18:29:INFO:>>> SIP/2.0 180 Ringing
+20:18:29:INFO:<<< SIP/2.0 180 Ringing
+20:18:32:INFO:>>> SIP/2.0 603 Decline
+20:18:32:INFO:<<< SIP/2.0 603 Decline
+20:18:32:INFO:>>> ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:32:INFO:destination DavidPhone@192.168.0.104
+20:18:32:INFO:<<< ACK sip:DavidPhone@192.168.0.104 SIP/2.0
+20:18:37:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:18:37:INFO:destination DavidPhone2@192.168.0.104
+20:18:37:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:18:37:INFO:>>> SIP/2.0 100 Trying
+20:18:37:INFO:<<< SIP/2.0 100 Trying
+20:18:38:INFO:>>> SIP/2.0 180 Ringing
+20:18:38:INFO:<<< SIP/2.0 180 Ringing
+20:18:49:INFO:>>> SIP/2.0 603 Decline
+20:18:49:INFO:<<< SIP/2.0 603 Decline
+20:18:49:INFO:>>> ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:18:49:INFO:destination DavidPhone2@192.168.0.104
+20:18:49:INFO:<<< ACK sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:46:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:19:46:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:61073
+20:19:46:INFO:<<< SIP/2.0 200 0K
+20:19:48:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:48:INFO:destination DavidPhone2@192.168.0.104
+20:19:48:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:48:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:48:INFO:destination DavidPhone2@192.168.0.104
+20:19:48:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:49:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:49:INFO:destination DavidPhone2@192.168.0.104
+20:19:49:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:51:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:51:INFO:destination DavidPhone2@192.168.0.104
+20:19:51:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:55:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:55:INFO:destination DavidPhone2@192.168.0.104
+20:19:55:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:19:57:INFO:>>> SIP/2.0 100 Trying
+20:19:57:INFO:<<< SIP/2.0 100 Trying
+20:19:58:INFO:>>> SIP/2.0 180 Ringing
+20:19:58:INFO:<<< SIP/2.0 180 Ringing
+20:20:05:INFO:>>> SIP/2.0 200 Ok
+20:20:05:INFO:<<< SIP/2.0 200 Ok
+20:20:05:INFO:>>> ACK sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:20:05:INFO:destination DavidPhone2@192.168.0.104
+20:20:05:INFO:<<< ACK sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:20:31:INFO:>>> BYE sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:31:INFO:destination DavidPhone@192.168.0.104
+20:20:31:INFO:<<< BYE sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:32:INFO:>>> SIP/2.0 200 Ok
+20:20:32:INFO:<<< SIP/2.0 200 Ok
+20:20:36:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:20:36:INFO:destination DavidPhone@192.168.0.104
+20:20:36:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:20:36:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:20:36:INFO:destination DavidPhone@192.168.0.104
+20:20:36:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:20:36:INFO:>>> SIP/2.0 100 Trying
+20:20:36:INFO:<<< SIP/2.0 100 Trying
+20:20:36:INFO:>>> SIP/2.0 180 Ringing
+20:20:36:INFO:<<< SIP/2.0 180 Ringing
+20:20:36:INFO:>>> SIP/2.0 180 Ringing
+20:20:36:INFO:<<< SIP/2.0 180 Ringing
+20:20:39:INFO:>>> SIP/2.0 200 Ok
+20:20:39:INFO:<<< SIP/2.0 200 Ok
+20:20:39:INFO:>>> ACK sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:39:INFO:destination DavidPhone@192.168.0.104
+20:20:39:INFO:<<< ACK sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:39:INFO:>>> SIP/2.0 200 Ok
+20:20:39:INFO:<<< SIP/2.0 200 Ok
+20:20:39:INFO:>>> ACK sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:39:INFO:destination DavidPhone@192.168.0.104
+20:20:39:INFO:<<< ACK sip:DavidPhone@192.168.0.103:61073;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:20:51:INFO:>>> BYE sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:20:51:INFO:destination DavidPhone2@192.168.0.104
+20:20:51:INFO:<<< BYE sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:20:52:INFO:>>> SIP/2.0 200 Ok
+20:20:52:INFO:<<< SIP/2.0 200 Ok
+20:20:55:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:20:55:INFO:From: DavidPhone@192.168.0.104 - Contact: 192.168.0.103:53788
+20:20:55:INFO:<<< SIP/2.0 200 0K
+20:21:16:INFO:>>> INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:21:16:INFO:destination DavidPhone@192.168.0.104
+20:21:16:INFO:<<< INVITE sip:DavidPhone@192.168.0.104 SIP/2.0
+20:21:17:INFO:>>> SIP/2.0 100 Trying
+20:21:17:INFO:<<< SIP/2.0 100 Trying
+20:21:17:INFO:>>> SIP/2.0 180 Ringing
+20:21:17:INFO:<<< SIP/2.0 180 Ringing
+20:21:17:INFO:>>> INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:21:17:INFO:destination DavidPhone2@192.168.0.104
+20:21:17:INFO:<<< INVITE sip:DavidPhone2@192.168.0.104 SIP/2.0
+20:21:17:INFO:>>> SIP/2.0 100 Trying
+20:21:17:INFO:<<< SIP/2.0 100 Trying
+20:21:17:INFO:>>> SIP/2.0 180 Ringing
+20:21:17:INFO:<<< SIP/2.0 180 Ringing
+20:21:20:INFO:>>> SIP/2.0 200 Ok
+20:21:20:INFO:<<< SIP/2.0 200 Ok
+20:21:21:INFO:>>> SUBSCRIBE sip:David@192.168.0.104;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:21:INFO:<<< SIP/2.0 200 0K
+20:21:21:INFO:>>> ACK sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:21:21:INFO:destination DavidPhone2@192.168.0.104
+20:21:21:INFO:<<< ACK sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:21:22:INFO:>>> SIP/2.0 200 Ok
+20:21:22:INFO:<<< SIP/2.0 200 Ok
+20:21:22:INFO:>>> SUBSCRIBE sip:David@192.168.0.104;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:22:INFO:<<< SIP/2.0 200 0K
+20:21:22:INFO:>>> ACK sip:DavidPhone@192.168.0.103:53788;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:21:22:INFO:destination DavidPhone@192.168.0.104
+20:21:22:INFO:<<< ACK sip:DavidPhone@192.168.0.103:53788;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:21:34:INFO:>>> BYE sip:David@192.168.0.104:57556;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:34:INFO:destination David@192.168.0.104
+20:21:34:INFO:<<< BYE sip:David@192.168.0.104:57556;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:34:INFO:>>> SIP/2.0 200 Ok
+20:21:34:INFO:<<< SIP/2.0 200 Ok
+20:21:34:INFO:>>> SUBSCRIBE sip:DavidPhone2@192.168.0.100:48176;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+20:21:34:INFO:<<< SIP/2.0 200 0K
+20:21:34:INFO:>>> BYE sip:David@192.168.0.104:57556;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:34:INFO:destination David@192.168.0.104
+20:21:34:INFO:<<< BYE sip:David@192.168.0.104:57556;conf-id=Tx4XE;transport=udp SIP/2.0
+20:21:34:INFO:>>> SIP/2.0 200 Ok
+20:21:34:INFO:<<< SIP/2.0 200 Ok
+20:21:34:INFO:>>> SUBSCRIBE sip:DavidPhone@192.168.0.103:53788;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+20:21:34:INFO:<<< SIP/2.0 200 0K
+20:22:08:INFO:>>> REGISTER sip:192.168.0.104 SIP/2.0
+20:22:08:INFO:<<< SIP/2.0 200 0K
+09:20:22:INFO:Tue, 22 Feb 2022 09:20:22 
+09:20:22:INFO:MacBook-Pro-uzivatela-David.local
+09:20:23:INFO:10.10.17.197
+09:20:39:INFO:Tue, 22 Feb 2022 09:20:39 
+09:20:39:INFO:MacBook-Pro-uzivatela-David.local
+09:20:39:INFO:10.10.17.197
+09:21:37:INFO:Tue, 22 Feb 2022 09:21:37 
+09:21:37:INFO:MacBook-Pro-uzivatela-David.local
+09:21:37:INFO:10.10.17.197
+09:22:16:INFO:Tue, 22 Feb 2022 09:22:16 
+09:22:16:INFO:MacBook-Pro-uzivatela-David.local
+09:22:16:INFO:10.10.17.196
+09:22:22:INFO:Tue, 22 Feb 2022 09:22:22 
+09:22:22:INFO:MacBook-Pro-uzivatela-David.local
+09:22:23:INFO:10.10.17.197
+09:23:14:INFO:Tue, 22 Feb 2022 09:23:14 
+09:23:14:INFO:MacBook-Pro-uzivatela-David.local
+09:23:14:INFO:10.10.17.197
+09:23:43:INFO:Tue, 22 Feb 2022 09:23:43 
+09:23:43:INFO:MacBook-Pro-uzivatela-David.local
+09:23:43:INFO:10.10.17.197
+09:25:31:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:25:31:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:60053
+09:25:31:INFO:<<< SIP/2.0 200 0K
+09:25:31:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:25:31:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:60053
+09:25:31:INFO:<<< SIP/2.0 200 0K
+09:25:31:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:25:31:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:60053
+09:25:31:INFO:<<< SIP/2.0 200 0K
+09:25:31:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:25:31:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:60053
+09:25:31:INFO:<<< SIP/2.0 200 0K
+09:30:36:INFO:Tue, 22 Feb 2022 09:30:36 
+09:30:36:INFO:MacBook-Pro-uzivatela-David.local
+09:30:36:INFO:147.175.176.214
+09:32:08:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:32:08:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:32:08:INFO:<<< SIP/2.0 200 0K
+09:32:08:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:32:08:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:32:08:INFO:<<< SIP/2.0 200 0K
+09:32:10:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:32:10:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:32:10:INFO:<<< SIP/2.0 200 0K
+09:33:01:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:33:01:INFO:From: DavidPhone2@147.175.176.214 - Contact: 147.175.190.171:45481
+09:33:01:INFO:<<< SIP/2.0 200 0K
+09:33:13:INFO:>>> INVITE sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:33:13:INFO:destination DavidPhone2@147.175.176.214
+09:33:13:INFO:<<< INVITE sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:33:13:INFO:>>> SIP/2.0 100 Trying
+09:33:13:INFO:<<< SIP/2.0 100 Trying
+09:33:14:INFO:>>> SIP/2.0 180 Ringing
+09:33:14:INFO:<<< SIP/2.0 180 Ringing
+09:33:17:INFO:>>> SIP/2.0 200 Ok
+09:33:17:INFO:<<< SIP/2.0 200 Ok
+09:33:18:INFO:>>> ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:18:INFO:destination DavidPhone2@147.175.176.214
+09:33:18:INFO:<<< ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:20:INFO:>>> INVITE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:20:INFO:destination DavidPhone@147.175.176.214
+09:33:20:INFO:<<< INVITE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:20:INFO:>>> INVITE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:20:INFO:destination DavidPhone@147.175.176.214
+09:33:20:INFO:<<< INVITE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:21:INFO:>>> SIP/2.0 100 Trying
+09:33:21:INFO:<<< SIP/2.0 100 Trying
+09:33:21:INFO:>>> SIP/2.0 200 Ok
+09:33:21:INFO:<<< SIP/2.0 200 Ok
+09:33:21:INFO:>>> ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:21:INFO:destination DavidPhone@147.175.176.214
+09:33:21:INFO:<<< ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:33:39:INFO:>>> INVITE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:39:INFO:destination DavidPhone2@147.175.176.214
+09:33:39:INFO:<<< INVITE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:40:INFO:>>> SIP/2.0 100 Trying
+09:33:40:INFO:<<< SIP/2.0 100 Trying
+09:33:40:INFO:>>> SIP/2.0 200 Ok
+09:33:40:INFO:<<< SIP/2.0 200 Ok
+09:33:40:INFO:>>> ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:40:INFO:destination DavidPhone2@147.175.176.214
+09:33:40:INFO:<<< ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:41:INFO:>>> INVITE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:41:INFO:destination DavidPhone2@147.175.176.214
+09:33:41:INFO:<<< INVITE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:42:INFO:>>> SIP/2.0 100 Trying
+09:33:42:INFO:<<< SIP/2.0 100 Trying
+09:33:42:INFO:>>> SIP/2.0 200 Ok
+09:33:42:INFO:<<< SIP/2.0 200 Ok
+09:33:43:INFO:>>> ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:43:INFO:destination DavidPhone2@147.175.176.214
+09:33:43:INFO:<<< ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:49:INFO:>>> BYE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:49:INFO:destination DavidPhone2@147.175.176.214
+09:33:49:INFO:<<< BYE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:33:49:INFO:>>> SIP/2.0 200 Ok
+09:33:49:INFO:<<< SIP/2.0 200 Ok
+09:34:35:INFO:Tue, 22 Feb 2022 09:34:35 
+09:34:35:INFO:MacBook-Pro-uzivatela-David.local
+09:34:35:INFO:147.175.176.214
+09:34:40:INFO:>>> INVITE sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:40:INFO:<<< SIP/2.0 400 Bad Request
+09:34:40:INFO:>>> ACK sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:40:INFO:destination DavidPhone@147.175.176.214
+09:34:43:INFO:>>> INVITE sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:43:INFO:<<< SIP/2.0 400 Bad Request
+09:34:43:INFO:>>> ACK sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:43:INFO:destination DavidPhone@147.175.176.214
+09:34:44:INFO:>>> INVITE sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:44:INFO:<<< SIP/2.0 400 Bad Request
+09:34:44:INFO:>>> ACK sip:DavidPhone@147.175.176.214 SIP/2.0
+09:34:44:INFO:destination DavidPhone@147.175.176.214
+09:34:51:INFO:>>> INVITE sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:34:51:INFO:<<< SIP/2.0 400 Bad Request
+09:34:51:INFO:>>> ACK sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:34:51:INFO:destination DavidPhone2@147.175.176.214
+09:35:03:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:35:03:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:35:03:INFO:<<< SIP/2.0 200 0K
+09:35:04:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:35:04:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:35:04:INFO:<<< SIP/2.0 200 0K
+09:35:06:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:35:06:INFO:From: DavidPhone@147.175.176.214 - Contact: 147.175.190.171:52347
+09:35:06:INFO:<<< SIP/2.0 200 0K
+09:35:08:INFO:>>> REGISTER sip:147.175.176.214 SIP/2.0
+09:35:08:INFO:From: DavidPhone2@147.175.176.214 - Contact: 147.175.190.171:45481
+09:35:08:INFO:<<< SIP/2.0 200 0K
+09:35:10:INFO:>>> INVITE sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:35:10:INFO:destination DavidPhone2@147.175.176.214
+09:35:10:INFO:<<< INVITE sip:DavidPhone2@147.175.176.214 SIP/2.0
+09:35:10:INFO:>>> SIP/2.0 100 Trying
+09:35:10:INFO:<<< SIP/2.0 100 Trying
+09:35:10:INFO:>>> SIP/2.0 180 Ringing
+09:35:10:INFO:<<< SIP/2.0 180 Ringing
+09:35:13:INFO:>>> SIP/2.0 200 Ok
+09:35:13:INFO:<<< SIP/2.0 200 Ok
+09:35:13:INFO:>>> ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:35:13:INFO:destination DavidPhone2@147.175.176.214
+09:35:13:INFO:<<< ACK sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:35:44:INFO:>>> BYE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:35:44:INFO:destination DavidPhone2@147.175.176.214
+09:35:44:INFO:<<< BYE sip:DavidPhone2@147.175.190.171:45481;pn-prid=dk-MUFCLR1WV5pu1rYTroW:APA91bHB4f8A5-xH6oR1141u0F30F0UyD4oWw7Ks_tOUz7V04aW8ReWJdV6-hd9FhWpQqdF3tYjbiVOY0_eHi4gnVC11YwLYruEl8X_G8p21ymDG9zK-bgLPWOe35P3_ek9Ps3J_TGkg;pn-provider=fcm;pn-param=929724111839;pn-silent=1;pn-timeout=0;transport=udp SIP/2.0
+09:35:45:INFO:>>> SIP/2.0 200 Ok
+09:35:45:INFO:<<< SIP/2.0 200 Ok
+09:36:09:INFO:>>> INVITE sip:DavidPhone@147.175.176.214 SIP/2.0
+09:36:09:INFO:destination DavidPhone@147.175.176.214
+09:36:09:INFO:<<< INVITE sip:DavidPhone@147.175.176.214 SIP/2.0
+09:36:09:INFO:>>> SIP/2.0 100 Trying
+09:36:09:INFO:<<< SIP/2.0 100 Trying
+09:36:09:INFO:>>> SIP/2.0 180 Ringing
+09:36:09:INFO:<<< SIP/2.0 180 Ringing
+09:36:11:INFO:>>> SIP/2.0 200 Ok
+09:36:11:INFO:<<< SIP/2.0 200 Ok
+09:36:11:INFO:>>> ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:11:INFO:destination DavidPhone@147.175.176.214
+09:36:11:INFO:<<< ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:11:INFO:>>> SIP/2.0 200 Ok
+09:36:11:INFO:<<< SIP/2.0 200 Ok
+09:36:11:INFO:>>> ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:11:INFO:destination DavidPhone@147.175.176.214
+09:36:11:INFO:<<< ACK sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:34:INFO:>>> BYE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:34:INFO:destination DavidPhone@147.175.176.214
+09:36:34:INFO:<<< BYE sip:DavidPhone@147.175.190.171:52347;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:36:34:INFO:>>> SIP/2.0 200 Ok
+09:36:34:INFO:<<< SIP/2.0 200 Ok
+09:38:22:INFO:Tue, 22 Feb 2022 09:38:22 
+09:38:22:INFO:MacBook-Pro-uzivatela-David.local
+09:38:22:INFO:10.10.17.197
+09:39:05:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:39:05:INFO:From: Kuchar@10.10.17.197 - Contact: 10.10.12.218:48031
+09:39:05:INFO:<<< SIP/2.0 200 0K
+09:39:18:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:39:18:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:50053
+09:39:18:INFO:<<< SIP/2.0 200 0K
+09:39:26:INFO:>>> INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:39:26:INFO:destination Kuchar@10.10.17.197
+09:39:26:INFO:<<< INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:39:26:INFO:>>> SIP/2.0 100 Trying
+09:39:26:INFO:<<< SIP/2.0 100 Trying
+09:39:26:INFO:>>> SIP/2.0 180 Ringing
+09:39:26:INFO:<<< SIP/2.0 180 Ringing
+09:39:28:INFO:>>> SIP/2.0 200 Ok
+09:39:28:INFO:<<< SIP/2.0 200 Ok
+09:39:28:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:39:28:INFO:destination Kuchar@10.10.17.197
+09:39:28:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:39:34:INFO:>>> INVITE sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:39:34:INFO:destination DavidPhone@10.10.17.197
+09:39:34:INFO:<<< INVITE sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:39:34:INFO:>>> SIP/2.0 100 Trying
+09:39:34:INFO:<<< SIP/2.0 100 Trying
+09:39:36:INFO:>>> SIP/2.0 200 Ok
+09:39:36:INFO:<<< SIP/2.0 200 Ok
+09:39:36:INFO:>>> ACK sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:39:36:INFO:destination DavidPhone@10.10.17.197
+09:39:36:INFO:<<< ACK sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:40:01:INFO:>>> BYE sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:40:01:INFO:destination DavidPhone@10.10.17.197
+09:40:01:INFO:<<< BYE sip:DavidPhone@10.10.36.235:50053;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:40:01:INFO:>>> SIP/2.0 200 Ok
+09:40:01:INFO:<<< SIP/2.0 200 Ok
+09:45:48:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:45:48:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:56828
+09:45:48:INFO:<<< SIP/2.0 200 0K
+09:48:03:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:48:03:INFO:From: David@10.10.17.197 - Contact: 10.10.17.197:56684
+09:48:03:INFO:<<< SIP/2.0 200 0K
+09:48:10:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:48:10:INFO:From: David@10.10.17.197 - Contact: 10.10.17.197:56684
+09:48:10:INFO:<<< SIP/2.0 200 0K
+09:48:21:INFO:>>> INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:48:21:INFO:destination Kuchar@10.10.17.197
+09:48:21:INFO:<<< INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:48:21:INFO:>>> SIP/2.0 100 Trying
+09:48:21:INFO:<<< SIP/2.0 100 Trying
+09:48:21:INFO:>>> SIP/2.0 180 Ringing
+09:48:21:INFO:<<< SIP/2.0 180 Ringing
+09:48:21:INFO:>>> INVITE sip:DavidPhone@10.10.17.197 SIP/2.0
+09:48:21:INFO:destination DavidPhone@10.10.17.197
+09:48:21:INFO:<<< INVITE sip:DavidPhone@10.10.17.197 SIP/2.0
+09:48:21:INFO:>>> SIP/2.0 100 Trying
+09:48:21:INFO:<<< SIP/2.0 100 Trying
+09:48:21:INFO:>>> SIP/2.0 180 Ringing
+09:48:21:INFO:<<< SIP/2.0 180 Ringing
+09:48:23:INFO:>>> SIP/2.0 200 Ok
+09:48:23:INFO:<<< SIP/2.0 200 Ok
+09:48:23:INFO:>>> SUBSCRIBE sip:David@10.10.17.197;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:23:INFO:<<< SIP/2.0 200 0K
+09:48:23:INFO:>>> SIP/2.0 200 Ok
+09:48:23:INFO:<<< SIP/2.0 200 Ok
+09:48:24:INFO:>>> ACK sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:48:24:INFO:destination DavidPhone@10.10.17.197
+09:48:24:INFO:<<< ACK sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:48:24:INFO:>>> SUBSCRIBE sip:David@10.10.17.197;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:24:INFO:<<< SIP/2.0 200 0K
+09:48:24:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:48:24:INFO:destination Kuchar@10.10.17.197
+09:48:24:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:48:25:INFO:>>> INVITE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:25:INFO:destination David@10.10.17.197
+09:48:25:INFO:<<< INVITE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:25:INFO:>>> SIP/2.0 100 Trying
+09:48:25:INFO:<<< SIP/2.0 100 Trying
+09:48:26:INFO:>>> INVITE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:26:INFO:destination David@10.10.17.197
+09:48:26:INFO:<<< INVITE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:26:INFO:>>> SIP/2.0 100 Trying
+09:48:26:INFO:<<< SIP/2.0 100 Trying
+09:48:49:INFO:>>> BYE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:49:INFO:destination David@10.10.17.197
+09:48:49:INFO:<<< BYE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:49:INFO:>>> SUBSCRIBE sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:48:49:INFO:<<< SIP/2.0 200 0K
+09:48:49:INFO:>>> SIP/2.0 200 Ok
+09:48:49:INFO:<<< SIP/2.0 200 Ok
+09:48:52:INFO:>>> BYE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:52:INFO:destination David@10.10.17.197
+09:48:52:INFO:<<< BYE sip:David@10.10.17.197:56684;conf-id=b1lQN;transport=udp SIP/2.0
+09:48:52:INFO:>>> SIP/2.0 200 Ok
+09:48:52:INFO:<<< SIP/2.0 200 Ok
+09:48:52:INFO:>>> SUBSCRIBE sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:48:52:INFO:<<< SIP/2.0 200 0K
+09:49:04:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:49:04:INFO:From: David@10.10.17.197 - Contact: 10.10.17.197:50888
+09:49:04:INFO:<<< SIP/2.0 200 0K
+09:49:10:INFO:>>> INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:49:10:INFO:destination Kuchar@10.10.17.197
+09:49:10:INFO:<<< INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:49:10:INFO:>>> SIP/2.0 100 Trying
+09:49:10:INFO:<<< SIP/2.0 100 Trying
+09:49:10:INFO:>>> SIP/2.0 180 Ringing
+09:49:10:INFO:<<< SIP/2.0 180 Ringing
+09:49:12:INFO:>>> SIP/2.0 200 Ok
+09:49:12:INFO:<<< SIP/2.0 200 Ok
+09:49:12:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:49:12:INFO:destination Kuchar@10.10.17.197
+09:49:12:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:49:16:INFO:>>> INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:16:INFO:destination David@10.10.17.197
+09:49:16:INFO:<<< INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:16:INFO:>>> SIP/2.0 100 Trying
+09:49:16:INFO:<<< SIP/2.0 100 Trying
+09:49:18:INFO:>>> SIP/2.0 200 Ok
+09:49:18:INFO:<<< SIP/2.0 200 Ok
+09:49:19:INFO:>>> SIP/2.0 200 Ok
+09:49:19:INFO:<<< SIP/2.0 200 Ok
+09:49:19:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:19:INFO:destination David@10.10.17.197
+09:49:19:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:19:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:19:INFO:destination David@10.10.17.197
+09:49:19:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:42:INFO:>>> INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:42:INFO:destination David@10.10.17.197
+09:49:42:INFO:<<< INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:42:INFO:>>> SIP/2.0 100 Trying
+09:49:42:INFO:<<< SIP/2.0 100 Trying
+09:49:42:INFO:>>> SIP/2.0 200 Ok
+09:49:42:INFO:<<< SIP/2.0 200 Ok
+09:49:42:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:42:INFO:destination David@10.10.17.197
+09:49:42:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:43:INFO:>>> BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:43:INFO:destination David@10.10.17.197
+09:49:43:INFO:<<< BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:49:43:INFO:>>> SIP/2.0 200 Ok
+09:49:43:INFO:<<< SIP/2.0 200 Ok
+09:50:13:INFO:>>> INVITE sip:David@10.10.17.197 SIP/2.0
+09:50:13:INFO:destination David@10.10.17.197
+09:50:13:INFO:<<< INVITE sip:David@10.10.17.197 SIP/2.0
+09:50:13:INFO:>>> SIP/2.0 100 Trying
+09:50:13:INFO:<<< SIP/2.0 100 Trying
+09:50:13:INFO:>>> SIP/2.0 180 Ringing
+09:50:13:INFO:<<< SIP/2.0 180 Ringing
+09:50:16:INFO:>>> SIP/2.0 200 Ok
+09:50:16:INFO:<<< SIP/2.0 200 Ok
+09:50:16:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:16:INFO:destination David@10.10.17.197
+09:50:16:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:20:INFO:>>> INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:20:INFO:destination David@10.10.17.197
+09:50:20:INFO:<<< INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:20:INFO:>>> SIP/2.0 100 Trying
+09:50:20:INFO:<<< SIP/2.0 100 Trying
+09:50:21:INFO:>>> SIP/2.0 200 Ok
+09:50:21:INFO:<<< SIP/2.0 200 Ok
+09:50:22:INFO:>>> SIP/2.0 200 Ok
+09:50:22:INFO:<<< SIP/2.0 200 Ok
+09:50:22:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:22:INFO:destination David@10.10.17.197
+09:50:22:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:22:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:22:INFO:destination David@10.10.17.197
+09:50:22:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:33:INFO:>>> BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:33:INFO:destination David@10.10.17.197
+09:50:33:INFO:<<< BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:50:33:INFO:>>> SIP/2.0 200 Ok
+09:50:33:INFO:<<< SIP/2.0 200 Ok
+09:50:36:INFO:>>> INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:50:36:INFO:destination Kuchar@10.10.17.197
+09:50:36:INFO:<<< INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:50:36:INFO:>>> SIP/2.0 100 Trying
+09:50:36:INFO:<<< SIP/2.0 100 Trying
+09:50:36:INFO:>>> SIP/2.0 180 Ringing
+09:50:36:INFO:<<< SIP/2.0 180 Ringing
+09:50:42:INFO:>>> SIP/2.0 200 Ok
+09:50:42:INFO:<<< SIP/2.0 200 Ok
+09:50:42:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:50:42:INFO:destination Kuchar@10.10.17.197
+09:50:42:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:>>> REFER sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:51:44:INFO:destination DavidPhone@10.10.17.197
+09:51:44:INFO:<<< REFER sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:51:44:INFO:>>> SIP/2.0 202 Accepted
+09:51:44:INFO:<<< SIP/2.0 202 Accepted
+09:51:44:INFO:>>> INVITE sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:destination Kuchar@10.10.17.197
+09:51:44:INFO:<<< INVITE sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:>>> INVITE sip:David@10.10.17.197 SIP/2.0
+09:51:44:INFO:destination David@10.10.17.197
+09:51:44:INFO:<<< INVITE sip:David@10.10.17.197 SIP/2.0
+09:51:44:INFO:>>> SIP/2.0 100 Trying
+09:51:44:INFO:<<< SIP/2.0 100 Trying
+09:51:44:INFO:>>> SIP/2.0 100 Trying
+09:51:44:INFO:<<< SIP/2.0 100 Trying
+09:51:44:INFO:>>> SIP/2.0 200 Ok
+09:51:44:INFO:<<< SIP/2.0 200 Ok
+09:51:44:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:destination Kuchar@10.10.17.197
+09:51:44:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:>>> NOTIFY sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:44:INFO:<<< SIP/2.0 200 0K
+09:51:44:INFO:>>> SIP/2.0 180 Ringing
+09:51:44:INFO:<<< SIP/2.0 180 Ringing
+09:51:49:INFO:>>> SIP/2.0 200 Ok
+09:51:49:INFO:<<< SIP/2.0 200 Ok
+09:51:49:INFO:>>> NOTIFY sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:51:49:INFO:<<< SIP/2.0 200 0K
+09:51:49:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:51:49:INFO:destination David@10.10.17.197
+09:51:49:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:51:53:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+09:51:53:INFO:From: Kuchar@10.10.17.197 - Contact: 10.10.12.218:48031
+09:51:53:INFO:<<< SIP/2.0 200 0K
+09:52:01:INFO:>>> INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:01:INFO:destination David@10.10.17.197
+09:52:01:INFO:<<< INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:01:INFO:>>> INVITE sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:52:01:INFO:destination Kuchar@10.10.17.197
+09:52:01:INFO:<<< INVITE sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:52:01:INFO:>>> SIP/2.0 100 Trying
+09:52:01:INFO:<<< SIP/2.0 100 Trying
+09:52:01:INFO:>>> SIP/2.0 200 Ok
+09:52:01:INFO:<<< SIP/2.0 200 Ok
+09:52:01:INFO:>>> SIP/2.0 100 Trying
+09:52:01:INFO:<<< SIP/2.0 100 Trying
+09:52:01:INFO:>>> SIP/2.0 200 Ok
+09:52:01:INFO:<<< SIP/2.0 200 Ok
+09:52:01:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:01:INFO:destination David@10.10.17.197
+09:52:01:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:02:INFO:>>> ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:52:02:INFO:destination Kuchar@10.10.17.197
+09:52:02:INFO:<<< ACK sip:Kuchar@10.10.12.218:48031;transport=udp SIP/2.0
+09:52:07:INFO:>>> BYE sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:52:07:INFO:destination DavidPhone@10.10.17.197
+09:52:07:INFO:<<< BYE sip:DavidPhone@10.10.36.235:56828;pn-prid=E4FCCF491014BB92DA90D2CD0685BF73E5D9A414C8E89FF1C0196C3250988218:voip&DE57C66EE09EE49C9F62481D4072A4C9499E850194895025E954C561896DA827:remote;pn-provider=apns;pn-param=ABCD1234.org.linphone.phone.voip;pn-silent=1;pn-timeout=0;pn-msg-str=IM_MSG;pn-call-str=IC_MSG;pn-groupchat-str=GC_MSG;pn-call-snd=notes_of_the_optimistic.caf;pn-msg-snd=msg.caf;transport=udp SIP/2.0
+09:52:07:INFO:>>> SIP/2.0 200 Ok
+09:52:07:INFO:<<< SIP/2.0 200 Ok
+09:52:17:INFO:>>> INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:17:INFO:destination Kuchar@10.10.17.197
+09:52:17:INFO:<<< INVITE sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:17:INFO:>>> SIP/2.0 100 Trying
+09:52:17:INFO:<<< SIP/2.0 100 Trying
+09:52:17:INFO:>>> SIP/2.0 180 Ringing
+09:52:17:INFO:<<< SIP/2.0 180 Ringing
+09:52:20:INFO:>>> CANCEL sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:20:INFO:destination Kuchar@10.10.17.197
+09:52:20:INFO:<<< CANCEL sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:20:INFO:>>> SIP/2.0 200 Ok
+09:52:20:INFO:<<< SIP/2.0 200 Ok
+09:52:20:INFO:>>> SIP/2.0 487 Request terminated
+09:52:20:INFO:<<< SIP/2.0 487 Request terminated
+09:52:20:INFO:>>> ACK sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:20:INFO:destination Kuchar@10.10.17.197
+09:52:20:INFO:<<< ACK sip:Kuchar@10.10.17.197 SIP/2.0
+09:52:22:INFO:>>> INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:22:INFO:destination David@10.10.17.197
+09:52:22:INFO:<<< INVITE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:22:INFO:>>> SIP/2.0 100 Trying
+09:52:22:INFO:<<< SIP/2.0 100 Trying
+09:52:22:INFO:>>> SIP/2.0 200 Ok
+09:52:22:INFO:<<< SIP/2.0 200 Ok
+09:52:22:INFO:>>> ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:22:INFO:destination David@10.10.17.197
+09:52:22:INFO:<<< ACK sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:24:INFO:>>> BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:24:INFO:destination David@10.10.17.197
+09:52:24:INFO:<<< BYE sip:David@10.10.17.197:50888;transport=udp SIP/2.0
+09:52:24:INFO:>>> SIP/2.0 200 Ok
+09:52:24:INFO:<<< SIP/2.0 200 Ok
+10:15:13:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+10:15:13:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:53299
+10:15:13:INFO:<<< SIP/2.0 200 0K
+10:15:49:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+10:15:49:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:62712
+10:15:49:INFO:<<< SIP/2.0 200 0K
+10:18:01:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+10:18:01:INFO:From: DavidPhone@10.10.17.197 - Contact: 10.10.36.235:61427
+10:18:01:INFO:<<< SIP/2.0 200 0K
+10:18:10:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+10:18:10:INFO:<<< SIP/2.0 200 0K
+10:18:10:INFO:>>> REGISTER sip:10.10.13.91 SIP/2.0
+10:18:10:INFO:From: Kuchar@10.10.13.91 - Contact: 10.10.12.218:48031
+10:18:10:INFO:<<< SIP/2.0 200 0K
+10:29:05:INFO:>>> REGISTER sip:10.10.13.91 SIP/2.0
+10:29:05:INFO:<<< SIP/2.0 200 0K
+10:43:04:INFO:>>> REGISTER sip:10.10.17.197 SIP/2.0
+10:43:04:INFO:From: David@10.10.17.197 - Contact: 10.10.17.197:50888
+10:43:04:INFO:<<< SIP/2.0 200 0K
