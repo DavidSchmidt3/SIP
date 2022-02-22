@@ -326,25 +326,17 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 self.processInvite()
             elif rx_ack.search(request_uri):
                 self.processAck()
-            elif rx_bye.search(request_uri):
+            elif rx_bye.search(request_uri) or\
+                rx_cancel.search(request_uri) or\
+                rx_info.search(request_uri) or\
+                rx_message.search(request_uri) or\
+                rx_refer.search(request_uri) or\
+                rx_prack.search(request_uri) or\
+                rx_update.search(request_uri):
                 self.processNonInvite()
-            elif rx_cancel.search(request_uri):
-                self.processNonInvite()
-            elif rx_info.search(request_uri):
-                self.processNonInvite()
-            elif rx_message.search(request_uri):
-                self.processNonInvite()
-            elif rx_refer.search(request_uri):
-                self.processNonInvite()
-            elif rx_prack.search(request_uri):
-                self.processNonInvite()
-            elif rx_update.search(request_uri):
-                self.processNonInvite()
-            elif rx_subscribe.search(request_uri):
-                self.sendResponse("200 VYBAVENE 0K")
-            elif rx_publish.search(request_uri):
-                self.sendResponse("200 VYBAVENE 0K")
-            elif rx_notify.search(request_uri):
+            elif rx_subscribe.search(request_uri) or\
+                rx_publish.search(request_uri) or\
+                rx_notify.search(request_uri):
                 self.sendResponse("200 VYBAVENE 0K")
             elif rx_code.search(request_uri):
                 self.processCode()
