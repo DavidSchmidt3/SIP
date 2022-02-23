@@ -1,13 +1,12 @@
 import sipfullproxy
 import logging
-import time
 import socket
 import socketserver
 
 PORT = 5060
 
 def main():
-    logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', filename='SIP.log', level=logging.INFO,
+    logging.basicConfig(format='%(message)s', filename='SIP.log', level=logging.INFO,
                         datefmt='%H:%M:%S')
 
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # https://stackoverflow.com/questions/24196932/how-can-i-get-the-ip-address-from-a-nic-network-interface-controller-in-python
@@ -17,8 +16,8 @@ def main():
     HOST = ipaddress
     s.close()
 
-    logging.info(f'SIP Proxy enabled and running on IP: {ipaddress}, PORT: {PORT}')
-    print(f'SIP Proxy enabled and running on IP: {ipaddress}, PORT: {PORT}')
+    logging.info(f'SIP Proxy zapnutá a beží na IP: {ipaddress}, PORT: {PORT}\n')
+    print(f'SIP Proxy zapnutá a beží na IP: {ipaddress}, PORT: {PORT}')
     sipfullproxy.recordroute = "Record-Route: <sip:%s:%d;lr>" % (ipaddress, PORT)
     sipfullproxy.topvia = "Via: SIP/2.0/UDP %s:%d" % (ipaddress, PORT)
 

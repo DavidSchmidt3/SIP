@@ -59,31 +59,11 @@ topvia = ""
 registrar = {}
 
 
-def hexdump(chars, sep, width):
-    while chars:
-        line = chars[:width]
-        chars = chars[width:]
-        line = line.ljust(width, '\000')
-        logging.debug("%s%s%s" % (sep.join("%02x" % ord(c) for c in line), sep, quotechars(line)))
-
-
 def quotechars(chars):
     return ''.join(['.', c][c.isalnum()] for c in chars)
 
-
-def showtime():
-    logging.debug(time.strftime("(%H:%M:%S)", time.localtime()))
-
-
+  
 class UDPHandler(socketserver.BaseRequestHandler):
-
-    def debugRegister(self):
-        logging.debug("*** REGISTER ***")
-        logging.debug("*****************")
-        for key in registrar.keys():
-            logging.debug("%s -> %s" % (key, registrar[key][0]))
-        logging.debug("*****************")
-
     def changeRequestUri(self):
         md = rx_request_uri.search(self.data[0])
         if md:
@@ -184,9 +164,6 @@ class UDPHandler(socketserver.BaseRequestHandler):
         data.append("")
         text = "\r\n".join(data).encode('utf-8')
         self.socket.sendto(text, self.client_address)
-        showtime()
-        logging.info("<<< %s" % data[0])
-        logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text), text))
 
     def processRegister(self):
         fromm = ""
@@ -227,76 +204,85 @@ class UDPHandler(socketserver.BaseRequestHandler):
         else:
             now = int(time.time())
 
-        logging.info("From: %s - Contact: %s" % (fromm, contact))
-        logging.debug("Client address: %s:%s" % self.client_address)
-        logging.debug("Expires= %d" % expires)
         registrar[fromm] = [contact, self.socket, self.client_address]
-        self.debugRegister()
         self.sendResponse("200 VYBAVENE 0K")
 
     def processInvite(self):
-        logging.debug("INVITE RECEIVED")
         origin = self.getOrigin()
+        originName = origin.split('@')[0]
+
         if len(origin) == 0 or not origin in registrar:
             self.sendResponse("400 Zly request")
             return
         destination = self.getDestination()
+        destinationName = destination.split('@')[0]
+        callID = self.getCallID()
+
         if len(destination) > 0:
-            logging.info("destination %s" % destination)
+            logging.info("Čas vytáčania: " + time.strftime("%H:%M:%S", time.localtime()) + f", ID hovoru: {callID}")
+            for key in registrar:
+                keyName = key.split('@')[0]
+                if originName == keyName:
+                    originToLog = registrar[key][0]    
+                    originToLogIP = originToLog.split(":")[0]
+                    originToLogPort = originToLog.split(":")[1]
+                    logging.info(f"Meno zahájovateľa hovoru: {originName}, IP: {originToLogIP}, PORT: {originToLogPort}")
+
+                if destinationName == keyName:
+                    destinationToLog = registrar[key][0]
+                    destinationToLogIP = destinationToLog.split(":")[0]
+                    destinationToLogPort = destinationToLog.split(":")[1]
+                    logging.info(f"Meno prijímateľa hovoru: {destinationName}, IP: {destinationToLogIP}, PORT: {destinationToLogPort}")
+            
             if destination in registrar:
                 socket, claddr = self.getSocketInfo(destination)
                 self.data = self.addTopVia()
                 data = self.removeRouteHeader()
-                # insert Record-Route
                 data.insert(1, recordroute)
                 text = "\r\n".join(data).encode('utf-8')
                 socket.sendto(text, claddr)
-                showtime()
-                logging.info("<<< %s" % data[0])
-                logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text), text))
             else:
                 self.sendResponse("480 Dočasne nedostupne")
         else:
             self.sendResponse("500 Interny server error")
 
     def processAck(self):
-        logging.debug(" ACK received ")
         destination = self.getDestination()
         if len(destination) > 0:
-            logging.info("destination %s" % destination)
             if destination in registrar:
+                callID = self.getCallID()
                 socket, claddr = self.getSocketInfo(destination)
+                logging.info("Čas prijatia hovoru: " + time.strftime("%H:%M:%S", time.localtime()) + f", ID Hovoru:{callID}")
                 self.data = self.addTopVia()
                 data = self.removeRouteHeader()
-                # insert Record-Route
                 data.insert(1, recordroute)
                 text = "\r\n".join(data).encode('utf-8')
                 socket.sendto(text, claddr)
-                showtime()
-                logging.info("<<< %s" % data[0])
-                logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text), text))
+
+    def getCallID(self):
+        for item in self.data:
+            if item.split(':')[0] == 'Call-ID':
+                return item.split(':')[1]
+        return 'Unknown ID'
 
     def processNonInvite(self):
-        logging.debug(" NonInvite received ")
         origin = self.getOrigin()
+        request_uri = self.data[0]
+        callID = self.getCallID()
+        if rx_bye.search(request_uri):
+            logging.info(f"Hovor ukončený, ID hovoru:{callID}, Čas ukončenia: " + time.strftime("%H:%M:%S", time.localtime()))
         if len(origin) == 0 or not origin in registrar:
-            self.sendResponse("400 Bad Request")
+            self.sendResponse("400 Zly Request")
             return
         destination = self.getDestination()
         if len(destination) > 0:
-            logging.info("destination %s" % destination)
             if destination in registrar:
                 socket, claddr = self.getSocketInfo(destination)
-                # self.changeRequestUri()
                 self.data = self.addTopVia()
                 data = self.removeRouteHeader()
-                # insert Record-Route
                 data.insert(1, recordroute)
                 text = "\r\n".join(data).encode('utf-8')
                 socket.sendto(text, claddr)
-                showtime()
-                logging.info("<<< %s" % data[0])
-                logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text), text))
             else:
                 self.sendResponse("406 Neda sa prijať")
         else:
@@ -305,19 +291,14 @@ class UDPHandler(socketserver.BaseRequestHandler):
     def processCode(self):
         origin = self.getOrigin()
         if len(origin) > 0:
-            logging.debug("origin %s" % origin)
             if origin in registrar:
                 socket, claddr = self.getSocketInfo(origin)
                 self.data = self.removeRouteHeader()
                 data = self.removeTopVia()
                 text = "\r\n".join(data).encode('utf-8')
                 socket.sendto(text, claddr)
-                showtime()
-                logging.info("<<< %s" % data[0])
-                logging.debug("---\n<< server send [%d]:\n%s\n---" % (len(text), text))
 
     def processRequest(self):
-        # print "processRequest"
         if len(self.data) > 0:
             request_uri = self.data[0]
             if rx_register.search(request_uri):
@@ -340,27 +321,13 @@ class UDPHandler(socketserver.BaseRequestHandler):
                 self.sendResponse("200 VYBAVENE 0K")
             elif rx_code.search(request_uri):
                 self.processCode()
-            else:
-                logging.error("request_uri %s" % request_uri)
-                # print "message %s unknown" % self.data
 
     def handle(self):
-        # socket.setdefaulttimeout(120)
         if self.request[0] == '0x80':
             return
-        data = self.request[0].decode('utf-8')
+        data = self.request[0].decode('utf-8', errors='ignore')
         self.data = data.split("\r\n")
         self.socket = self.request[1]
         request_uri = self.data[0]
         if rx_request_uri.search(request_uri) or rx_code.search(request_uri):
-            showtime()
-            logging.info(">>> %s" % request_uri)
-            logging.debug("---\n>> server received [%d]:\n%s\n---" % (len(data), data))
-            logging.debug("Received from %s:%d" % self.client_address)
             self.processRequest()
-        else:
-            if len(data) > 4:
-                showtime()
-                logging.warning("---\n>> server received [%d]:" % len(data))
-                hexdump(data, ' ', 16)
-                logging.warning("---")
