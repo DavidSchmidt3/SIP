@@ -219,20 +219,20 @@ class UDPHandler(socketserver.BaseRequestHandler):
         callID = self.getCallID()
 
         if len(destination) > 0:
-            logging.info("Čas vytáčania: " + time.strftime("%H:%M:%S", time.localtime()) + f", ID hovoru: {callID}")
+            logging.info("Čas vytáčania: " + time.strftime("%H:%M:%S", time.localtime()) + f", ID hovoru:{callID}")
             for key in registrar:
                 keyName = key.split('@')[0]
                 if originName == keyName:
                     originToLog = registrar[key][0]    
                     originToLogIP = originToLog.split(":")[0]
                     originToLogPort = originToLog.split(":")[1]
-                    logging.info(f"Meno zahájovateľa hovoru: {originName}, IP: {originToLogIP}, PORT: {originToLogPort}")
+                    logging.info(f"Meno zahájovateľa hovoru: {originName}, IP: {originToLogIP}, PORT: {originToLogPort}, ID hovoru:{callID}")
 
                 if destinationName == keyName:
                     destinationToLog = registrar[key][0]
                     destinationToLogIP = destinationToLog.split(":")[0]
                     destinationToLogPort = destinationToLog.split(":")[1]
-                    logging.info(f"Meno prijímateľa hovoru: {destinationName}, IP: {destinationToLogIP}, PORT: {destinationToLogPort}")
+                    logging.info(f"Meno prijímateľa hovoru: {destinationName}, IP: {destinationToLogIP}, PORT: {destinationToLogPort}, ID Hovoru:{callID}")
             
             if destination in registrar:
                 socket, claddr = self.getSocketInfo(destination)

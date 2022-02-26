@@ -1,5 +1,4 @@
 gpl.txt
 *.pyc
-*.log
 .DS_Store
 PCAP/.DS_Store

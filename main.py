@@ -16,7 +16,7 @@ def main():
     HOST = ipaddress
     s.close()
 
-    logging.info(f'SIP Proxy zapnutá a beží na IP: {ipaddress}, PORT: {PORT}\n')
+    logging.info(f'SIP Proxy zapnutá a beží na IP: {ipaddress}, PORT: {PORT}')
     print(f'SIP Proxy zapnutá a beží na IP: {ipaddress}, PORT: {PORT}')
     sipfullproxy.recordroute = "Record-Route: <sip:%s:%d;lr>" % (ipaddress, PORT)
     sipfullproxy.topvia = "Via: SIP/2.0/UDP %s:%d" % (ipaddress, PORT)
